@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComplexSystem.Authorization.Services\ComplexSystem.Authorization.Services.csproj" />
+    <ProjectReference Include="..\ComplexSystem.Common\ComplexSystem.Common.csproj" />
+  </ItemGroup>
+
+</Project>

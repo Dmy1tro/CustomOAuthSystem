@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{BFAD386B-F305-4ECC-92BA-FA091D8B9BFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexSystem.Resource.Api", "ComplexSystem.Resource.Api\ComplexSystem.Resource.Api.csproj", "{361A60B5-8908-4E5E-B7EC-06846E2A9F0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorization", "Authorization", "{DAD518FD-7CFA-482D-BB5B-4F3248149885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{F205FD78-D47A-412A-9F5A-C4DB03A8FDF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexSystem.Authorization.Api", "ComplexSystem.Authorization.Api\ComplexSystem.Authorization.Api.csproj", "{BC1AE82F-F7D3-492E-8D64-E203C70B515F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexSystem.Authorization.Services", "ComplexSystem.Authorization.Services\ComplexSystem.Authorization.Services.csproj", "{195949AE-8E13-42A9-BF02-ECF758297239}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexSystem.Schedule.Client", "ComplexSystem.Schedule.Client\ComplexSystem.Schedule.Client.csproj", "{42F9BA29-9151-4686-99DF-E65D21A7B319}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexSystem.Google.Api", "ComplexSystem.Google.Api\ComplexSystem.Google.Api.csproj", "{1757C46B-8959-4983-A0F1-8E51F49ACF56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexSystem.Common", "ComplexSystem.Common\ComplexSystem.Common.csproj", "{E03AD3B6-D197-46F8-B838-CD870D35CD95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{87FD95BE-7706-4567-BDF3-B6A0310D93CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComplexSystem.MegaAwesomeAuthorization.Module", "ComplexSystem.MegaAwesomeAuthorization.Module\ComplexSystem.MegaAwesomeAuthorization.Module.csproj", "{81380B47-C62C-4B67-A108-84FC497AED2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F71C2B51-32FE-42BD-82CB-3FCF0E847AE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{361A60B5-8908-4E5E-B7EC-06846E2A9F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361A60B5-8908-4E5E-B7EC-06846E2A9F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361A60B5-8908-4E5E-B7EC-06846E2A9F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361A60B5-8908-4E5E-B7EC-06846E2A9F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1AE82F-F7D3-492E-8D64-E203C70B515F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1AE82F-F7D3-492E-8D64-E203C70B515F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1AE82F-F7D3-492E-8D64-E203C70B515F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1AE82F-F7D3-492E-8D64-E203C70B515F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195949AE-8E13-42A9-BF02-ECF758297239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195949AE-8E13-42A9-BF02-ECF758297239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195949AE-8E13-42A9-BF02-ECF758297239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195949AE-8E13-42A9-BF02-ECF758297239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F9BA29-9151-4686-99DF-E65D21A7B319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F9BA29-9151-4686-99DF-E65D21A7B319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F9BA29-9151-4686-99DF-E65D21A7B319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F9BA29-9151-4686-99DF-E65D21A7B319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1757C46B-8959-4983-A0F1-8E51F49ACF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1757C46B-8959-4983-A0F1-8E51F49ACF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1757C46B-8959-4983-A0F1-8E51F49ACF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1757C46B-8959-4983-A0F1-8E51F49ACF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03AD3B6-D197-46F8-B838-CD870D35CD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03AD3B6-D197-46F8-B838-CD870D35CD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03AD3B6-D197-46F8-B838-CD870D35CD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03AD3B6-D197-46F8-B838-CD870D35CD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81380B47-C62C-4B67-A108-84FC497AED2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81380B47-C62C-4B67-A108-84FC497AED2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81380B47-C62C-4B67-A108-84FC497AED2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81380B47-C62C-4B67-A108-84FC497AED2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{361A60B5-8908-4E5E-B7EC-06846E2A9F0E} = {BFAD386B-F305-4ECC-92BA-FA091D8B9BFB}
+		{BC1AE82F-F7D3-492E-8D64-E203C70B515F} = {DAD518FD-7CFA-482D-BB5B-4F3248149885}
+		{195949AE-8E13-42A9-BF02-ECF758297239} = {DAD518FD-7CFA-482D-BB5B-4F3248149885}
+		{42F9BA29-9151-4686-99DF-E65D21A7B319} = {F205FD78-D47A-412A-9F5A-C4DB03A8FDF6}
+		{1757C46B-8959-4983-A0F1-8E51F49ACF56} = {BFAD386B-F305-4ECC-92BA-FA091D8B9BFB}
+		{E03AD3B6-D197-46F8-B838-CD870D35CD95} = {87FD95BE-7706-4567-BDF3-B6A0310D93CF}
+		{81380B47-C62C-4B67-A108-84FC497AED2C} = {F71C2B51-32FE-42BD-82CB-3FCF0E847AE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A02905D0-8E67-4799-9C3F-D64323F33DC8}
+	EndGlobalSection
+EndGlobal
